@@ -1,0 +1,52 @@
+
+  .custom-bg {
+    background-color: #dfe8f1; /* สีฟ้าอ่อน หรือเลือกสีอื่น */
+  }
+
+  .sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* icon */
+html {
+  scroll-behavior: smooth;
+}
+
+[id] {
+  scroll-margin-top: 90px; /* ปรับตามความสูงของ navbar */
+}
+
+.navbar-nav img:hover {
+  filter: brightness(0.1);
+ 
+}
+
+/* text */
+.navbar-nav .nav-link {
+  color: #585858;            /* สีปกติ */
+  transition: 0.3s;          /* ทำให้เปลี่ยนสีแบบนุ่มนวล */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ddb609;            /* สีตอน hover (เช่น เหลืองทอง) */
+}
+
+/* กล่อง card */
+.hover-card:hover {
+  transform: translateY(-8px);
+  transition: transform 0.3s
+}
+  /* ทำให้ลูกศรชัดขึ้น */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* ทำให้สีลูกศรเป็นสีขาว */   
+  }
+
