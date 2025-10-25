@@ -61,12 +61,15 @@ html {
     background-color: #DFE8F1; /* เปลี่ยนสีปุ่มเป็นแดงอ่อน หรือสีที่ชอบ */
     border: none; /* เอาเส้นขอบออก */
     transition: background 0.3s;
+    transition: 0.3s;
+    
 }
 
 .btn-primary:hover {
     color: #000000;
     background-color: #f8dd65; /* สีเมื่อ hover */
 }
+
 
   /* เพิ่มเอฟเฟกต์เล็กๆ เวลา hover */
   .hover-scale {
@@ -78,3 +81,24 @@ html {
     box-shadow: 0 10px 20px rgba(0,0,0,0.15);
     z-index: 10;
   }
+
+  .fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img-hover {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.img-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
