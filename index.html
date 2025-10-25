@@ -45,7 +45,11 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#เพิ่มเติม">แนะนำเพิ่มเติม</a>
+              <a class="nav-link" href="#หนังสือ">หนังสือเพิ่มเติม</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#บทความ">บทความ</a>
             </li>
 
             <li class="nav-item">
@@ -241,107 +245,145 @@
   </div>
   <!-- จบกล่องเปิดปิด -->
 
-  <section class="container my-5">
-  <h2 class="text-center mb-4">หนังสือเพิ่มเติมจากผู้เขียน</h2>
-  
-  <div id="authorBooksCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <section id="หนังสือ" class="container my-5 ">
+    <h2 class="text-center mb-4">หนังสือเพิ่มเติมจากผู้เขียน</h2>
 
-      <!-- หนังสือที่ 1 -->
-      <div class="carousel-item active">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="images/blue.jpg" class="card-img-top shadow-lg" alt="Book 1">
-          <div class="card-body text-center my-3">
-            <a href="https://www.naiin.com/product/detail/547551" target="_blank" class="btn btn-primary">ดูรายละเอียด</a>
+    <div id="authorBooksCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner mt-5">
+
+        <!-- หนังสือที่ 1 -->
+        <div class="carousel-item active">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="images/blue.jpg" class="card-img-top shadow-lg" alt="Book 1">
+            <div class="card-body text-center my-3">
+              <a href="https://www.naiin.com/product/detail/547551" target="_blank"
+                class="btn btn-primary">ดูรายละเอียด</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- หนังสือที่ 2 -->
-      <div class="carousel-item">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="images/black.jpg" class="card-img-top shadow-lg" alt="Book 2">
-          <div class="card-body text-center my-3">
-            <a href="https://www.naiin.com/product/detail/642022" target="_blank" class="btn btn-primary">ดูรายละเอียด</a>
+        <!-- หนังสือที่ 2 -->
+        <div class="carousel-item">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="images/black.jpg" class="card-img-top shadow-lg" alt="Book 2">
+            <div class="card-body text-center my-3">
+              <a href="https://www.naiin.com/product/detail/642022" target="_blank"
+                class="btn btn-primary">ดูรายละเอียด</a>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- หนังสือที่ 3 -->
-      <div class="carousel-item">
-        <div class="card mx-auto" style="width: 18rem;">
-          <img src="images/yellow.jpg" class="card-img-top shadow-lg" alt="Book 3">
-          <div class="card-body text-center my-3">
-            <a href="https://www.naiin.com/product/detail/604471" target="_blank" class="btn btn-primary">ดูรายละเอียด</a>
+        <!-- หนังสือที่ 3 -->
+        <div class="carousel-item">
+          <div class="card mx-auto" style="width: 18rem;">
+            <img src="images/yellow.jpg" class="card-img-top shadow-lg" alt="Book 3">
+            <div class="card-body text-center my-3">
+              <a href="https://www.naiin.com/product/detail/604471" target="_blank"
+                class="btn btn-primary">ดูรายละเอียด</a>
+            </div>
           </div>
         </div>
+
       </div>
 
+      <!-- ลูกศรเลื่อน -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#authorBooksCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#authorBooksCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </section>
 
-    <!-- ลูกศรเลื่อน -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#authorBooksCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#authorBooksCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-</section>
+  <section id="บทความ" class="container my-5">
+    <h2 class="mb-4">บทความที่จะช่วยเยียวยาหัวใจของคุณ</h2>
+    <div class="d-flex flex-column gap-4">
 
-  <!-- Section: กล่องแนะนำหนังสือ / เนื้อหาอื่นๆ -->
-  <section id="เพิ่มเติม" class="container my-5">
-    <h2 class="text-center mb-4">แนะนำเพิ่มเติม</h2>
-    <div class="row g-4">
-
-      <!-- กล่องที่ 1 -->
-      <div class="col-md-4">
-        <a href="https://www.instagram.com/seol.leda/?hl=en" target="_blank">
-          <div class="card text-center rounded-5 p-4 hover-card">
-            <img src="images/instagram.png" class="card-img-top mx-auto" style="width:80px; height:80px;"
-              alt="หนังสืออื่นๆ">
-            <div class="card-body">
-              <h5 class="card-title">ติดตามผู้เขียน</h5>
-              <p class="card-text">รับข่าวสารและผลงานล่าสุดก่อนใคร</p>
-            </div>
+      <!-- บทความ 1 -->
+      <div class="card w-100 h-100 shadow-sm hover-scale d-flex flex-column">
+        <a href="https://www.betteryoubypair.com/post/%E0%B8%AB%E0%B8%A5%E0%B8%B8%E0%B8%94%E0%B8%9E%E0%B9%89%E0%B8%99%E0%B8%88%E0%B8%B2%E0%B8%81-toxic-relationship-%E0%B8%88%E0%B8%B4%E0%B8%95%E0%B8%A7%E0%B8%B4%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%A2%E0%B8%B2%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9F%E0%B8%B7%E0%B9%89%E0%B8%99%E0%B8%9F%E0%B8%B9%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%80%E0%B8%AD%E0%B8%87"
+          target="_blank" style="text-decoration:none; color: inherit;" class="flex-fill">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">หลุดพ้นจาก Toxic Relationship: จิตวิทยาของการเยียวยาหัวใจและฟื้นฟูตัวเองาชีวิต</h5>
+            <p class="card-text text-truncate">
+              ในชีวิตของมนุษย์ ความสัมพันธ์เป็นหนึ่งในปัจจัยสำคัญที่ส่งผลต่อสุขภาวะทางจิตใจและอารมณ์ อย่างไรก็ตาม
+              ไม่ใช่ทุกความสัมพันธ์จะนำมาซึ่งความสุขและความมั่นคงทางใจ หลายคนติดอยู่ใน Toxic Relationship
+              (ความสัมพันธ์ที่เป็นพิษ)
+            </p>
           </div>
         </a>
+        <div class="card-footer text-muted mt-auto">
+          2 Febuary 2025
+        </div>
       </div>
 
-      <!-- กล่องที่ 2 -->
-      <div class="col-md-4">
-        <a href="https://www.naiin.com/writer/045634" target="_blank">
-          <div class="card text-center rounded-5 p-4 hover-card">
-            <img src="images/open-book.png" class="card-img-top mx-auto" style="width:80px; height:80px;"
-              alt="หนังสืออื่นๆ">
-            <div class="card-body">
-              <h5 class="card-title">ผลงานเพิ่มเติมจากผู้เขียน</h5>
-              <p class="card-text">ค้นพบผลงานอื่นๆที่คุณอาจชื่นชอบ</p>
-            </div>
+      <!-- บทความ 2 -->
+      <div class="card w-100 h-100 shadow-sm hover-scale d-flex flex-column">
+        <a href="https://www.hankyhouse.com/blog/%E0%B9%80%E0%B8%A2%E0%B8%B5%E0%B8%A2%E0%B8%A7%E0%B8%A2%E0%B8%B2%E0%B8%AB%E0%B8%B1%E0%B8%A7%E0%B9%83%E0%B8%88%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3%E0%B9%83%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%AD%E0%B8%81%E0%B8%AB%E0%B8%B1%E0%B8%81/95"
+          target="_blank" style="text-decoration:none; color: inherit;" class="flex-fill">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">เยียวยาหัวใจอย่างไรในวันที่อกหัก</h5>
+            <p class="card-text text-truncate">
+              เมื่อเราต้องผิดหวังในความสัมพันธ์ ความรู้สึกที่ตามมานั้นมักเอ่อล้น
+              และเต็มไปด้วยความคิดวกวนไปมาไม่สิ้นสุด บางทีก็รู้สึกเจ็บหน่วงอยู่ข้างในอก
+              ไม่ว่าจะมีน้ำตาหรือไม่แต่ก็รู้สึกอยากร้องไห้ตลอดเวลา ดังนั้นเราจึงไม่อาจปฏิเสธได้ว่า อาการอกหัก
+              หรือผิดหวังจากความสัมพันธ์นั้นส่งผลกระทบต่อชีวิตของเรา
+            </p>
           </div>
         </a>
+        <div class="card-footer text-muted mt-auto">
+          27 December 2023
+        </div>
       </div>
 
-      <!-- กล่องที่ 3 -->
-      <div class="col-md-4">
-        <a href="https://www.naiin.com/publisher/003734" target="_blank">
-          <div class="card text-center rounded-5 p-4 hover-card">
-            <img src="images/books.png" class="card-img-top mx-auto" style="width:80px; height:80px;"
-              alt="หนังสืออื่นๆ">
-            <div class="card-body">
-              <h5 class="card-title">หนังสือจากสำนักพิมพ์Springbooks</h5>
-              <p class="card-text">ค้นพบหนังสือใหม่ๆที่คุณอาจสนใจ</p>
-            </div>
+      <!-- บทความ 3 -->
+      <div class="card w-100 h-100 shadow-sm hover-scale d-flex flex-column">
+        <a href="https://thematter.co/social/crying-is-good/191372" target="_blank"
+          style="text-decoration:none; color: inherit;" class="flex-fill">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">เถ้าเสียใจก็ร้องไห้ออกมา เพราะน้ำตาอาจช่วยเยียวยาหัวใจ</h5>
+            <p class="card-text text-truncate">
+              ทุกครั้งที่อยากร้องไห้ หรือร้องออกมาแล้ว จะต้องได้ยินประโยคจากคนรอบตัวประมาณว่า “อย่าร้องไห้สิ” หรือ
+              “เรื่องแค่นี้ต้องร้องไห้ด้วยเหรอ”
+              คำพูดเหล่านี้ทำให้น้ำตากลายเป็นสัญลักษณ์ของความอ่อนแอที่ไม่ควรให้ใครได้เห็น
+              ทำไมถึงต้องคาดหวังว่าเราจะเข้มแข็งได้ตลอดเวลากันนะ
+            </p>
           </div>
         </a>
+        <div class="card-footer text-muted mt-auto">
+          24 November 2022
+        </div>
+      </div>
+
+      <!-- บทความ 4 -->
+      <div class="card w-100 h-100 shadow-sm hover-scale d-flex flex-column">
+        <a href="https://www.istrong.co/single-post/mind-healing?srsltid=AfmBOorQudzc5H7s5wjO4CALPyBX8bKwHmLXbCAionmGDAxXIe9QrHVH"
+          target="_blank" style="text-decoration:none; color: inherit;" class="flex-fill">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">10 วิธีเยียวยารักษาใจจากความทุกข์และปัญหาชีวิต</h5>
+            <p class="card-text text-truncate">
+              ชีวิตคือความไม่แน่นอน การพบเจอปัญหาหรือความยากลำบาก
+              เป็นส่วนหนึ่งของชีวิตที่มนุษย์ทุกคนจะต้องเรียนรู้ที่จะผ่านมันไปให้ได้ การเยียวยารักษาใจเป็นเรื่องสำคัญ
+              หลังจากที่จิตใจของเราได้รับการกระทบกระเทือนจากเรื่องราวต่างๆ
+            </p>
+          </div>
+        </a>
+        <div class="card-footer text-muted mt-auto">
+          15 October 2019
+        </div>
       </div>
 
     </div>
   </section>
 
-<div style="height: 60px; background: #dfe8f1;"></div>
+
+
+
+
+  <div style="height: 60px; background: #dfe8f1;"></div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
